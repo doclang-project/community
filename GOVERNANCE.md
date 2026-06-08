@@ -16,10 +16,11 @@ The *Contributor* role is the starting point for anyone participating in the pro
 
 * Review the [Contribution Guidelines](./CONTRIBUTING.md).
 * Submit your contribution with the appropriate DCO sign-off.
+* A Member or SC member will review and merge accepted contributions.
 
 ### Member
 
-A *Member* is a Contributor who has been formally recognized by the Steering Committee as a sustained, regular participant. Members have write access to DocLang repositories, participate in and lead working groups, and are listed in the repository `MAINTAINERS.md`.
+A *Member* is a Contributor who has been formally recognized by the Steering Committee as a sustained, regular participant. Members have write access to DocLang repositories, participate in and lead working groups, and are listed in the repository [MAINTAINERS.md](./MAINTAINERS.md).
 
 Current Members across the DocLang project (in alphabetical order):
 
@@ -43,7 +44,7 @@ A Member candidate is nominated by any SC member. The SC acknowledges the nomina
 
 ### Steering Committee member
 
-*Steering Committee (SC) members* hold final authority on DocLang's technical direction, spec releases, governance changes, and SC admissions. SC members have merge rights across all DocLang repositories.
+*Steering Committee (SC) members* hold final authority on DocLang's technical direction, spec releases, governance changes, and new SC members. SC members have merge rights across all DocLang repositories.
 
 Founding member organizations (ABBYY, IBM, Red Hat, NVIDIA, HumanSignal) hold permanent SC seats and each designate a named representative. Additional SC seats may be filled by a 2/3 vote of the existing SC.
 
@@ -53,18 +54,20 @@ Current SC members (in alphabetical order):
 |------|-------------|------|
 | Christoph Auer | IBM | |
 | Michele Dolfi | IBM | |
-| *(vacant)* | HumanSignal | |
 | Ali Maredia | Red Hat | |
-| *(vacant)* | NVIDIA | |
 | Peter Staar | IBM | Chairperson |
 | Panos Vagenas | IBM | |
 | Maxime Vermeir | ABBYY | |
+| *(vacant)* | HumanSignal | |
+| *(vacant)* | NVIDIA | |
 
 The chairperson ensures the smooth running of the SC. They do not have additional voting power. Currently [Peter Staar](https://github.com/PeterStaar-IBM) is the chairperson.
 
 #### Process for becoming an SC member
 
-Nominated by an existing SC member. Requires a 2/3 majority of cast SC votes. Founding member seats are permanent and exempt from this process.
+A candidate is nominated by an existing SC member. Requires a 2/3 majority of cast SC votes. Founding member seats are permanent and exempt from this process.
+
+Procedures for SC member resignation, removal, and vacant seat reclamation are described in [MEMBERSHIP.md](./MEMBERSHIP.md).
 
 ## Release process
 
