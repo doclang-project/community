@@ -26,15 +26,16 @@ Out of scope:
 The founding members of the DocLang consortium are:
 
 - ABBYY
+- HumanSignal
 - IBM
-- Red Hat
 - NVIDIA
+- Red Hat
 
 Member roles, rights, and obligations are described in [MEMBERSHIP.md](./MEMBERSHIP.md).
 
 ## 4. Governance
 
-Day-to-day governance, project roles (contributor, committer, maintainer, TSC), and decision-making procedures are described in [GOVERNANCE.md](./GOVERNANCE.md).
+Day-to-day governance, project roles (Contributor, Member, Steering Committee), and decision-making procedures are described in [GOVERNANCE.md](./GOVERNANCE.md).
 
 The Technical Steering Committee (TSC) has final authority on technical direction. The TSC includes representation from each founding member to preserve vendor neutrality.
 
@@ -56,8 +57,8 @@ All project activities are conducted under the [Code of Conduct](./CODE_OF_CONDU
 
 ## 8. Hosting
 
-<!-- TODO: confirm hosting foundation. Original Docling community was an LF AI & Data incubation project; verify whether DocLang continues there or moves to a different foundation. -->
+DocLang is hosted under LF AI & Data, a Linux Foundation project. The project's governance and IP policy operate in accordance with LF AI & Data's requirements and conventions.
 
 ## 9. Amendments
 
-This charter may be amended by a two-thirds vote of the TSC. Amendments take effect on merge of the corresponding pull request to this repository.
+This charter may be amended by a two-thirds vote of the SC. Amendments take effect on merge of the corresponding pull request to this repository.
