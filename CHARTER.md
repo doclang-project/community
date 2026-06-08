@@ -37,13 +37,13 @@ Member roles, rights, and obligations are described in [MEMBERSHIP.md](./MEMBERS
 
 Day-to-day governance, project roles (Contributor, Member, Steering Committee), and decision-making procedures are described in [GOVERNANCE.md](./GOVERNANCE.md).
 
-The Technical Steering Committee (TSC) has final authority on technical direction. The TSC includes representation from each founding member to preserve vendor neutrality.
+The Steering Committee (SC) has final authority on technical direction. The SC includes representation from each founding member to preserve vendor neutrality.
 
 ## 5. Decision-making
 
-The project operates by **lazy consensus** for routine decisions. Substantive decisions — including specification-breaking changes, new releases of the standard, governance changes, and acceptance of new founding members — require a TSC vote. A two-thirds majority of cast votes is sufficient unless the [GOVERNANCE.md](./GOVERNANCE.md) specifies otherwise.
+The project operates by **lazy consensus** for routine decisions. Substantive decisions — including specification-breaking changes, new releases of the standard, governance changes, and acceptance of new founding members — require a SC vote. A two-thirds majority of cast votes is sufficient unless the [GOVERNANCE.md](./GOVERNANCE.md) specifies otherwise.
 
-Working groups may be chartered by the TSC to develop specific areas of the specification and report back with recommendations.
+Working groups may be chartered by the SC to develop specific areas of the specification and report back with recommendations.
 
 ## 6. Licensing
 
