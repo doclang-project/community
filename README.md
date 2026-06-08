@@ -38,11 +38,11 @@ The initial draft of the DocLang specification originated from research by the A
 
 The governance of the project is described in the [GOVERNANCE.md](./GOVERNANCE.md) file. The project [Charter](./CHARTER.md) and [Membership tiers](./MEMBERSHIP.md) describe the high-level structure, and the [IP Policy](./IP-POLICY.md) covers patent and contribution licensing — relevant for any ISO-track standard.
 
-The Technical Steering Committee (TSC) meets regularly. Meeting notes are kept in [steering-committee/meeting-notes/](./steering-committee/meeting-notes/).
+The Steering Committee (SC) meets regularly. Meeting notes are kept in [steering-committee/meeting-notes/](./steering-committee/meeting-notes/).
 
 ## Roadmap
 
-The TSC maintains the overall DocLang roadmap in [docs/roadmap.md](./docs/roadmap.md).
+The SC maintains the overall DocLang roadmap in [docs/roadmap.md](./docs/roadmap.md).
 
 ## How can I help?
 

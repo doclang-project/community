@@ -71,7 +71,7 @@ Procedures for SC member resignation, removal, and vacant seat reclamation are d
 
 ## Release process
 
-Specification releases will occur on a scheduled basis as agreed by the TSC.
+Specification releases will occur on a scheduled basis as agreed by the SC.
 
 ## Communication
 
@@ -81,4 +81,4 @@ This project, just like all open source, is a global community. In addition to t
 * Be respectful of time and language differences between community members (such as scheduling meetings, email/issue responsiveness, etc).
 * Ensure tools are able to be used by community members regardless of their region.
 
-If you have concerns about communication challenges for this project, please contact the TSC.
+If you have concerns about communication challenges for this project, please contact the SC.
