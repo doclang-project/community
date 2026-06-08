@@ -17,11 +17,18 @@ The standard is being developed as an open consortium effort with the intent of 
 DocLang is a multi-vendor effort. The founding members are:
 
 - **ABBYY**
+- **HumanSignal**
 - **IBM**
-- **Red Hat**
 - **NVIDIA**
+- **Red Hat**
 
 The list of named contributors to the specification is maintained in the [DocLang standard repository](https://github.com/doclang-project/doclang-standard) and reflected in [MAINTAINERS.md](./MAINTAINERS.md).
+
+## Adopters
+
+Organizations that have implemented the DocLang standard in a product or internal system are listed here.
+
+*Be the first — see [MEMBERSHIP.md](./MEMBERSHIP.md#4-adopter) for how to register.*
 
 ## History
 
