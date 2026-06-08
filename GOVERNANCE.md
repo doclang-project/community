@@ -10,78 +10,61 @@ DocLang is developed as a vendor-neutral standard by a consortium of [Founding M
 
 ### Contributor
 
-The *contributor* role is the starting role for anyone participating in the project and wishing to contribute to the specification, reference implementations, or documentation.
+The *Contributor* role is the starting point for anyone participating in the project. A Contributor submits issues, proposals, and pull requests on any DocLang repository.
 
-#### Process for becoming a contributor
+#### Process for becoming a Contributor
 
-* Review the [Contribution Guidelines](./CONTRIBUTING.md) to ensure your contribution is inline with the project's guidelines.
-* Submit your contribution as a PR with the appropriate DCO sign-off.
-* Have your submission approved by the committer(s) and merged into the codebase.
+* Review the [Contribution Guidelines](./CONTRIBUTING.md).
+* Submit your contribution with the appropriate DCO sign-off.
 
-### Committer
+### Member
 
-A *committer* is a contributor who has the additional privilege to commit code directly to the repository, but also the duty of being a responsible leader in the community.
+A *Member* is a Contributor who has been formally recognized by the Steering Committee as a sustained, regular participant. Members have write access to DocLang repositories, participate in and lead working groups, and are listed in the repository `MAINTAINERS.md`.
 
-Committers are drawn from across the founding member companies and from independent contributors. The current committers (in alphabetical order):
+Current Members across the DocLang project (in alphabetical order):
 
 | Name | Affiliation |
 |------|-------------|
-| Christoph Auer | IBM |
 | Santosh Borse | IBM |
-| Michele Dolfi | IBM |
 | Christopher Giblin | IBM |
 | Said Gürbüz | IBM |
 | Nikolaos Livathinos | IBM |
 | Morgan Logue | ABBYY |
 | Maksym Lysak | IBM |
-| Ali Maredia | Red Hat |
 | Jehlum Vitasta Pandit | Red Hat |
 | Andrew Pery | ABBYY |
 | Yousaf Shah | IBM |
-| Peter Staar | IBM |
 | Maroun Touma | IBM |
-| Panos Vagenas | IBM |
-| Maxime Vermeir | ABBYY |
 | Marlene Wolfgruber | ABBYY |
 
-#### Process for becoming a committer
+#### Process for becoming a Member
 
-A contributor can be nominated for the committer role by a committer. There will be a vote by the TSC members. While it is expected that most votes will be unanimous, a two-thirds majority of the cast votes is enough.
+A Member candidate is nominated by any SC member. The SC acknowledges the nomination via lazy consensus (any SC member may raise an objection within 7 days; silence is assent) — no formal vote required.
 
-### Maintainer
+### Steering Committee member
 
-A repository *maintainer* is a committer who has the additional privilege to merge pull requests into the main branch of a particular repository.
+*Steering Committee (SC) members* hold final authority on DocLang's technical direction, spec releases, governance changes, and SC admissions. SC members have merge rights across all DocLang repositories.
 
-Each DocLang repository has a list of maintainers in its `MAINTAINERS.md` page. The list for this repository is in [MAINTAINERS.md](./MAINTAINERS.md).
+Founding member organizations (ABBYY, IBM, Red Hat, NVIDIA, HumanSignal) hold permanent SC seats and each designate a named representative. Additional SC seats may be filled by a 2/3 vote of the existing SC.
 
-#### Process for becoming a maintainer
-
-A committer can be nominated for becoming maintainer of a given repository by another committer. There will be a vote by the TSC members. While it is expected that most votes will be unanimous, a two-thirds majority of the cast votes is enough.
-
-### TSC member
-
-The *Technical Steering Committee (TSC) members* are committers who have additional responsibilities to ensure the smooth running of the project. TSC members are expected to participate in strategic planning, approve changes to the governance model, and shepherd the specification through standardization. The purpose of the TSC is to ensure smooth progress from the big-picture perspective.
-
-To preserve vendor neutrality, the TSC includes representation from each founding member company.
-
-Current TSC members (in alphabetical order):
+Current SC members (in alphabetical order):
 
 | Name | Affiliation | Role |
 |------|-------------|------|
 | Christoph Auer | IBM | |
 | Michele Dolfi | IBM | |
-| Ali Maredia | Red Hat | <!-- TODO: confirm Red Hat TSC representative --> |
+| *(vacant)* | HumanSignal | |
+| Ali Maredia | Red Hat | |
+| *(vacant)* | NVIDIA | |
 | Peter Staar | IBM | Chairperson |
 | Panos Vagenas | IBM | |
-| Maxime Vermeir | ABBYY | <!-- TODO: confirm ABBYY TSC representative --> |
+| Maxime Vermeir | ABBYY | |
 
-<!-- TODO: confirm NVIDIA TSC representative once a founding-member contact is assigned. -->
+The chairperson ensures the smooth running of the SC. They do not have additional voting power. Currently [Peter Staar](https://github.com/PeterStaar-IBM) is the chairperson.
 
-The chairperson of the TSC ensures the smooth running of the TSC. They do not have more voting power than other TSC members. Currently [Peter Staar](https://github.com/PeterStaar-IBM) is the chairperson of the TSC.
+#### Process for becoming an SC member
 
-#### Process for becoming a TSC member
-
-Each founding member company is entitled to nominate a representative to the TSC. Additional TSC seats may be added by a two-thirds vote of the existing TSC, in line with the [Charter](./CHARTER.md).
+Nominated by an existing SC member. Requires a 2/3 majority of cast SC votes. Founding member seats are permanent and exempt from this process.
 
 ## Release process
 
