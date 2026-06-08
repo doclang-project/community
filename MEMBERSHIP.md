@@ -55,7 +55,7 @@ Any individual or organization making regular, ongoing contributions to the spec
 
 ### Process for becoming a Member
 
-A Member candidate is nominated by any SC member. The SC acknowledges the nomination via lazy consensus — no formal vote required.
+A Member candidate is nominated by any SC member. The SC acknowledges the nomination via lazy consensus (any SC member may raise an objection within 7 days; silence is assent) — no formal vote required.
 
 ---
 
