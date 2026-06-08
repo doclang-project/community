@@ -31,13 +31,13 @@ pull request so it can be tracked.
 
 ### Merge approval
 
-A pull request can be reviewed by any [committer](./GOVERNANCE.md#committer), but only
-a [maintainer](./GOVERNANCE.md#maintainer) of the respective repository can merge it to
+A pull request can be reviewed by any [Member](./GOVERNANCE.md#member), but only
+a [Steering Committee member](./GOVERNANCE.md#steering-committee-member) of the respective repository can merge it to
 the main branch.
 
 ### Quick execution
 
-The governance team favours quick iterations and execution. Contributors and committers are
+The governance team favours quick iterations and execution. Contributors and Members are
 encouraged to provide quick and effective feedback for finalizing the contributions.
 
 Stale contributions will be flagged and eventually closed.
