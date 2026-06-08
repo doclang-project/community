@@ -1,64 +1,118 @@
 # Membership
 
-> **Status:** draft — pending review and ratification by the founding members. Specific dues, voting weights, and benefits below are placeholders that need legal and foundation-level review before adoption.
+DocLang is structured around four participation tiers. Each tier reflects a different relationship to the project — from implementing the standard to shaping its future.
 
-The DocLang consortium is structured around tiered membership. The tiers exist to provide governance representation proportional to a member's commitment to the standard, while keeping participation open to anyone who wants to contribute.
+## 1. Steering Committee
 
-## 1. Founding members
+The Steering Committee (SC) is the governing body of DocLang. SC members hold final authority on technical direction, spec releases, governance changes, and SC admissions.
 
-Founding members are the organizations that originated the DocLang specification and initial reference implementations. The founding members are:
+### Who
 
-- **IBM**
-- **ABBYY**
-- **Red Hat**
-- **NVIDIA**
-- **HumanSignal**
+- **Founding members** — ABBYY, IBM, Red Hat, NVIDIA, and HumanSignal hold permanent SC seats. Each founding member designates a named SC representative.
+- **Elected members** — Any individual or organization may be nominated for an SC seat by an existing SC member and elected by a 2/3 majority SC vote.
 
 ### Rights
 
-- One designated representative on the Technical Steering Committee ([TSC](./GOVERNANCE.md#tsc-member)).
-- Right to nominate committers and maintainers.
-- Listed prominently in project communications and on the project website.
-- Vote on substantive matters per the [Charter](./CHARTER.md).
+- Vote on all substantive matters: spec-breaking changes, new releases, governance amendments, new SC members
+- Merge rights across all DocLang repositories
+- Permanent seat for founding member representatives
 
 ### Obligations
 
-- Designate an active TSC representative.
-- Comply with the [IP Policy](./IP-POLICY.md) and the patent commitments described there.
-- Make a good-faith commitment to contribute resources (engineering, documentation, evangelism) to the standard.
+- Active contribution to and promotion of the project
+- Founding members must maintain a designated SC representative
+- Comply with the [IP Policy](./IP-POLICY.md)
 
-## 2. General members
+### Process for elected members
 
-Any organization may join as a general member after the consortium is formally established.
+An existing SC member nominates a candidate. A 2/3 majority of cast SC votes is required for admission.
+
+### Decision-making
+
+Routine decisions operate by lazy consensus. Substantive decisions — spec-breaking changes, new releases, governance amendments, new SC members — require a 2/3 majority of cast votes.
+
+---
+
+## 2. Member
+
+Members are sustained contributors who have been formally recognized by the SC. Membership acknowledges that a contributor is consistently engaged with the project over time.
+
+### Who
+
+Any individual or organization making regular, ongoing contributions to the specification, reference implementations, or documentation.
 
 ### Rights
 
-- Participation in working groups.
-- Right to nominate committers.
-- Listed as a member organization in project communications.
-- Vote on matters reserved to the general membership per the [Charter](./CHARTER.md).
+- Write access to DocLang repositories
+- Participate in and lead working groups
+- Listed in [MAINTAINERS.md](./MAINTAINERS.md)
+- Eligible for SC nomination
 
 ### Obligations
 
-- Comply with the [IP Policy](./IP-POLICY.md).
-- Designate a primary contact for the project.
+- Sustained, regular engagement with the project
+- Comply with the [IP Policy](./IP-POLICY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-<!-- TODO: define whether general membership carries dues, and if so the tier structure. Typically set by the hosting foundation. -->
+### Process for becoming a Member
 
-## 3. Individual contributors
+A Member candidate is nominated by any SC member. The SC acknowledges the nomination via lazy consensus — no formal vote required.
 
-Individuals may contribute to the project without any organizational membership. Individual contributors are bound only by the DCO sign-off (see [CONTRIBUTING.md](./CONTRIBUTING.md)) and the [Code of Conduct](./CODE_OF_CONDUCT.md). They retain the right to become [committers](./GOVERNANCE.md#committer) and, in time, TSC members.
+---
 
-## 4. Becoming a founding member
+## 3. Contributor
 
-The founding-member tier is closed once the consortium is formally established. Organizations interested in equivalent strategic involvement should join as general members and may, by a two-thirds TSC vote, be elevated to "strategic member" status carrying TSC representation.
+A Contributor is anyone who engages with the project by submitting issues, proposals, or pull requests. There is no formal process — contributing is the entry point.
 
-<!-- TODO: align terminology ("strategic member" vs. additional founding seats) with hosting foundation conventions once selected. -->
+### Who
+
+Any individual or organization.
+
+### Rights
+
+- Submit issues and pull requests on any DocLang repository
+- Participate in design discussions
+- Eligible to be nominated as a Member
+
+### Obligations
+
+- DCO sign-off on all contributions (see [CONTRIBUTING.md](./CONTRIBUTING.md))
+- Comply with the [Code of Conduct](./CODE_OF_CONDUCT.md)
+
+---
+
+## 4. Adopter
+
+Adopters are organizations that have implemented the DocLang standard in a product or internal system.
+
+### Who
+
+Technology companies, enterprises, or other organizations running DocLang in production.
+
+### Rights
+
+- Logo and listing on the project website and README
+- Early access to draft spec versions before public release
+- Formal roadmap input channel — submissions are acknowledged by the SC
+- Featured in adopter showcases in releases, blog posts, and events
+- Conformance recognition *(planned — pending availability of the conformance test suite)*
+
+### Obligations
+
+- Self-identify as an implementer of the standard
+- Comply with the [Code of Conduct](./CODE_OF_CONDUCT.md)
+
+### Process for becoming an Adopter
+
+Open a GitHub issue using the [Adopter Registration template](https://github.com/doclang-project/community/issues/new?template=adopter-registration.md). An SC member will acknowledge and coordinate your listing.
+
+---
 
 ## 5. Resignation and removal
 
-Members may resign at any time by written notice to the TSC. Members may be removed by a two-thirds vote of the TSC for material breach of the [Code of Conduct](./CODE_OF_CONDUCT.md), the [IP Policy](./IP-POLICY.md), or this membership document.
+Any participant may step down at any time by notifying the SC. Participants may be removed by a 2/3 vote of the SC for material breach of the [Code of Conduct](./CODE_OF_CONDUCT.md) or [IP Policy](./IP-POLICY.md).
+
+Founding member seats are permanent; however, a founding member may resign its seat by written notice to the SC. A vacant founding member seat may be filled by a 2/3 SC vote.
 
 ## 6. Amendments
 
-This document may be amended by a two-thirds vote of the TSC, in coordination with the hosting foundation if applicable.
+This document may be amended by a 2/3 vote of the SC, in coordination with LF AI & Data where applicable.
