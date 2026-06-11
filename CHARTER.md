@@ -23,27 +23,26 @@ Out of scope:
 
 ## 3. Founding members
 
-The founding members of the DocLang consortium are:
+The founding members of the DocLang consortium are (in alphabetical order):
 
 - ABBYY
+- Forgis
 - HumanSignal
 - IBM
 - NVIDIA
 - Red Hat
 
-Member roles, rights, and obligations are described in [MEMBERSHIP.md](./MEMBERSHIP.md).
-
 ## 4. Governance
 
-Day-to-day governance, project roles (Contributor, Member, Steering Committee), and decision-making procedures are described in [GOVERNANCE.md](./GOVERNANCE.md).
+Participation levels and individual roles are described in [MEMBERSHIP.md](./MEMBERSHIP.md). Day-to-day governance and current role holders are described in [GOVERNANCE.md](./GOVERNANCE.md).
 
-The Steering Committee (SC) has final authority on technical direction. The SC includes representation from each founding member to preserve vendor neutrality.
+The Technical Steering Committee (TSC) has final authority on technical direction. The TSC includes representation from each founding member to preserve vendor neutrality.
 
 ## 5. Decision-making
 
-The project operates by **lazy consensus** for routine decisions. Substantive decisions — including specification-breaking changes, new releases of the standard, governance changes, and acceptance of new founding members — require a SC vote. A two-thirds majority of cast votes is sufficient unless the [GOVERNANCE.md](./GOVERNANCE.md) specifies otherwise.
+The project operates by **lazy consensus** for routine decisions. Substantive decisions — including specification-breaking changes, new releases of the standard, governance changes, and admission of new Member organizations — require a TSC vote. A two-thirds majority of cast votes is sufficient unless [MEMBERSHIP.md](./MEMBERSHIP.md) specifies otherwise.
 
-Working groups may be chartered by the SC to develop specific areas of the specification and report back with recommendations.
+Working groups may be chartered by the TSC to develop specific areas of the specification and report back with recommendations.
 
 ## 6. Licensing
 
@@ -53,7 +52,7 @@ Working groups may be chartered by the SC to develop specific areas of the speci
 
 ## 7. Antitrust and code of conduct
 
-All project activities are conducted under the [Code of Conduct](./CODE_OF_CONDUCT.md). Member companies and individual participants are expected to comply with applicable antitrust and competition law; the project does not coordinate on pricing, market allocation, or other competitively sensitive matters.
+All project activities are conducted under the [Code of Conduct](./CODE_OF_CONDUCT.md). Member organizations and individual participants are expected to comply with applicable antitrust and competition law; the project does not coordinate on pricing, market allocation, or other competitively sensitive matters.
 
 ## 8. Hosting
 
@@ -61,4 +60,4 @@ DocLang is hosted under LF AI & Data, a Linux Foundation project. The project's 
 
 ## 9. Amendments
 
-This charter may be amended by a two-thirds vote of the SC. Amendments take effect on merge of the corresponding pull request to this repository.
+This charter may be amended by a two-thirds vote of the TSC. Amendments take effect on merge of the corresponding pull request to this repository.

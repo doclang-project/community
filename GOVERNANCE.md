@@ -4,29 +4,53 @@
 
 This project aims to be governed in a transparent, accessible way for the benefit of the community. All participation in this project is open and not bound to corporate affiliation. Participants are bound to the project's [Code of Conduct](./CODE_OF_CONDUCT.md).
 
-DocLang is developed as a vendor-neutral standard by a consortium of [Founding Members](./MEMBERSHIP.md), with the intent of formal ISO standardization. The [Charter](./CHARTER.md) and [IP Policy](./IP-POLICY.md) describe the high-level scope and the patent / contribution licensing terms.
+DocLang is developed as a vendor-neutral standard by a consortium of [Member organizations](./MEMBERSHIP.md#member-level), with the intent of formal ISO standardization. [Participation levels for organizations](./MEMBERSHIP.md#participation-levels-for-organizations) and [roles for individuals](./MEMBERSHIP.md#roles-for-individuals) — including rights, obligations, and admission — are defined in [MEMBERSHIP.md](./MEMBERSHIP.md). The [Charter](./CHARTER.md) and [IP Policy](./IP-POLICY.md) describe the high-level scope and the patent / contribution licensing terms.
 
-## Project roles
+This document lists current role holders and covers release and communication practices.
 
-### Contributor
+## Technical Steering Committee (TSC)
 
-The *Contributor* role is the starting point for anyone participating in the project. A Contributor submits issues, proposals, and pull requests on any DocLang repository.
+See [MEMBERSHIP.md](./MEMBERSHIP.md#technical-steering-committee-tsc) for the TSC, its decision-making, and admission process.
 
-#### Process for becoming a Contributor
-
-* Review the [Contribution Guidelines](./CONTRIBUTING.md).
-* Submit your contribution with the appropriate DCO sign-off.
-* A Member or SC member will review and merge accepted contributions.
-
-### Member
-
-A *Member* is a Contributor who has been formally recognized by the Steering Committee as a sustained, regular participant. Members have write access to DocLang repositories, participate in and lead working groups, and are listed in the repository [MAINTAINERS.md](./MAINTAINERS.md).
-
-Current Members across the DocLang project (in alphabetical order):
+Current members (alphabetical by last name):
 
 | Name | Affiliation |
 |------|-------------|
+| Christoph Auer | IBM |
+| Ryan Chesler | NVIDIA |
+| Michele Dolfi | IBM |
+| Micaela Kaplan | HumanSignal |
+| Riccardo Maggioni | Forgis |
+| Ali Maredia | Red Hat |
+| Peter Staar (chair) | IBM |
+| Panos Vagenas | IBM |
+| Maxime Vermeir | ABBYY |
+
+## Maintainers
+
+See [MEMBERSHIP.md](./MEMBERSHIP.md#maintainer) for the Maintainer role, the per-repository override model, and appointment process.
+
+The following are the *default* maintainers for DocLang repositories. This list applies unless a specific repository provides its own `MAINTAINERS.md` to override it.
+
+| Name | Affiliation |
+|------|-------------|
+| Christoph Auer | IBM |
+| Michele Dolfi | IBM |
+| Peter Staar | IBM |
+| Panos Vagenas | IBM |
+| Maxime Vermeir | ABBYY |
+
+## Committers
+
+See [MEMBERSHIP.md](./MEMBERSHIP.md#committer) for the Committer role.
+
+Current committers (alphabetical by last name):
+
+| Name | Affiliation |
+|------|-------------|
+| Christoph Auer | IBM |
 | Santosh Borse | IBM |
+| Michele Dolfi | IBM |
 | Christopher Giblin | IBM |
 | Said Gürbüz | IBM |
 | Nikolaos Livathinos | IBM |
@@ -35,43 +59,15 @@ Current Members across the DocLang project (in alphabetical order):
 | Jehlum Vitasta Pandit | Red Hat |
 | Andrew Pery | ABBYY |
 | Yousaf Shah | IBM |
+| Peter Staar | IBM |
 | Maroun Touma | IBM |
+| Panos Vagenas | IBM |
+| Maxime Vermeir | ABBYY |
 | Marlene Wolfgruber | ABBYY |
-
-#### Process for becoming a Member
-
-A Member candidate is nominated by any SC member. The SC acknowledges the nomination via lazy consensus (any SC member may raise an objection within 7 days; silence is assent) — no formal vote required.
-
-### Steering Committee member
-
-*Steering Committee (SC) members* hold final authority on DocLang's technical direction, spec releases, governance changes, and new SC members. SC members have merge rights across all DocLang repositories.
-
-Founding member organizations (ABBYY, IBM, Red Hat, NVIDIA, HumanSignal) hold permanent SC seats and each designate a named representative. Additional SC seats may be filled by a 2/3 vote of the existing SC.
-
-Current SC members (in alphabetical order):
-
-| Name | Affiliation | Role |
-|------|-------------|------|
-| Christoph Auer | IBM | |
-| Michele Dolfi | IBM | |
-| Ali Maredia | Red Hat | |
-| Peter Staar | IBM | Chairperson |
-| Panos Vagenas | IBM | |
-| Maxime Vermeir | ABBYY | |
-| *(vacant)* | HumanSignal | |
-| *(vacant)* | NVIDIA | |
-
-The chairperson ensures the smooth running of the SC. They do not have additional voting power. Currently [Peter Staar](https://github.com/PeterStaar-IBM) is the chairperson.
-
-#### Process for becoming an SC member
-
-A candidate is nominated by an existing SC member. Requires a 2/3 majority of cast SC votes. Founding member seats are permanent and exempt from this process.
-
-Procedures for SC member resignation, removal, and vacant seat reclamation are described in [MEMBERSHIP.md](./MEMBERSHIP.md).
 
 ## Release process
 
-Specification releases will occur on a scheduled basis as agreed by the SC.
+Specification releases will occur on a scheduled basis as agreed by the TSC.
 
 ## Communication
 
@@ -81,4 +77,4 @@ This project, just like all open source, is a global community. In addition to t
 * Be respectful of time and language differences between community members (such as scheduling meetings, email/issue responsiveness, etc).
 * Ensure tools are able to be used by community members regardless of their region.
 
-If you have concerns about communication challenges for this project, please contact the SC.
+If you have concerns about communication challenges for this project, please contact the TSC.
