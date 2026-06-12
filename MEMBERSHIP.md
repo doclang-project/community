@@ -1,118 +1,180 @@
-# Membership
+# Participation
 
-DocLang is structured around four participation tiers. Each tier reflects a different relationship to the project — from implementing the standard to shaping its future.
+DocLang defines participation levels for organizations and roles for individuals.
 
-## 1. Steering Committee
+## Participation levels for organizations
 
-The Steering Committee (SC) is the governing body of DocLang. SC members hold final authority on technical direction, spec releases, governance changes, and SC admissions.
+Participation levels for organizations are structured in a cascade of increasing levels of rights and obligations, as defined further below.
 
-### Who
+### Adopter level
 
-- **Founding members** — ABBYY, IBM, Red Hat, NVIDIA, and HumanSignal hold permanent SC seats. Each founding member designates a named SC representative.
-- **Elected members** — Any individual or organization may be nominated for an SC seat by an existing SC member and elected by a 2/3 majority SC vote.
+An **Adopter** organization is an organization that is using the DocLang standard in a product or internal system.
 
-### Rights
+#### Rights
 
-- Vote on all substantive matters: spec-breaking changes, new releases, governance amendments, new SC members
-- Merge rights across all DocLang repositories
-- Permanent seat for founding member representatives
+- Logo and listing on the project website and README
+- Early access to draft spec versions before public release
+- Formal roadmap input channel — submissions are acknowledged by the TSC
+- Featured in adopter showcases in releases, blog posts, and events
+- Conformance recognition *(planned — pending availability of the conformance test suite)*
 
-### Obligations
+#### Obligations
 
-- Active contribution to and promotion of the project
-- Founding members must maintain a designated SC representative
-- Comply with the [IP Policy](./IP-POLICY.md)
+- Self-identify as a user of the standard
+- Comply with the [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-### Process for elected members
+#### Process
 
-An existing SC member nominates a candidate. A 2/3 majority of cast SC votes is required for admission.
+Open a GitHub issue using the [Adopter Registration template](https://github.com/doclang-project/community/issues/new?template=adopter-registration.md). A TSC member will acknowledge and coordinate your listing.
 
-### Decision-making
+### Contributor level
 
-Routine decisions operate by lazy consensus. Substantive decisions — spec-breaking changes, new releases, governance amendments, new SC members — require a 2/3 majority of cast votes.
+A **Contributor** organization is an Adopter that additionally contributes to the project by submitting issues, proposals, or pull requests.
 
----
+#### Rights
 
-## 2. Member
+In addition to those of an Adopter:
+- Recognition as a contributing organization
+- Eligible to be nominated as a Member organization
 
-Members are sustained contributors who have been formally recognized by the SC. Membership acknowledges that a contributor is consistently engaged with the project over time.
+#### Obligations
 
-### Who
+In addition to those of an Adopter:
+- Sustained commitment to the project
+- Comply with the [IP Policy](./IP-POLICY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-Any individual or organization making regular, ongoing contributions to the specification, reference implementations, or documentation.
+#### Process
 
-### Rights
+Open a GitHub issue using the [Contributor Registration template](https://github.com/doclang-project/community/issues/new?template=contributor-registration.md). A TSC member will acknowledge and coordinate your listing.
 
-- Write access to DocLang repositories
-- Participate in and lead working groups
-- Listed in [MAINTAINERS.md](./MAINTAINERS.md)
-- Eligible for SC nomination
+### Member level
 
-### Obligations
+A **Member** is a Contributor organization *formally* participating in the DocLang consortium. A Member organization makes regular, ongoing contributions to the specification, reference implementations, or documentation.
 
+#### Rights
+
+In addition to those of a Contributor:
+- Consortium membership standing
+- Eligible to designate participation in consortium activities as defined by the TSC
+
+#### Obligations
+
+In addition to those of a Contributor:
 - Sustained, regular engagement with the project
 - Comply with the [IP Policy](./IP-POLICY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-### Process for becoming a Member
+#### Process
 
-A Member candidate is nominated by any SC member. The SC acknowledges the nomination via lazy consensus (any SC member may raise an objection within 7 days; silence is assent) — no formal vote required.
+Admission of new Member organizations requires a 2/3 vote of the TSC.
 
----
+## Roles for individuals
 
-## 3. Contributor
+DocLang differentiates between steering and technical roles for individuals, as specified further below. Holding any steering role and holding any technical role are independent of each other.
 
-A Contributor is anyone who engages with the project by submitting issues, proposals, or pull requests. There is no formal process — contributing is the entry point.
+### Steering roles
 
-### Who
+#### Technical Steering Committee (TSC)
 
-Any individual or organization.
+The **Technical Steering Committee (TSC)** is the governing body of DocLang. TSC members hold final authority on technical direction, spec releases, governance changes, and TSC admissions.
 
-### Rights
+##### Who
+
+- **Founding member representatives** — each founding member designates at least one TSC representative.
+- **Elected TSC members** — any individual may be nominated for a TSC seat by an existing TSC member and elected by a 2/3 majority TSC vote.
+
+##### Rights
+
+- Vote on all substantive matters: spec-breaking changes, new releases, governance amendments, new TSC members
+
+##### Obligations
+
+- Active contribution to and promotion of the project
+- Founding members must maintain at least one designated TSC representative
+- Comply with the [IP Policy](./IP-POLICY.md)
+
+##### Process for elected TSC members
+
+An existing TSC member nominates a candidate. A 2/3 majority of cast TSC votes is required for admission.
+
+##### TSC Chair
+
+The TSC Chair ensures the smooth running of the TSC. The Chair does not have additional voting power.
+
+Current TSC members are listed in [GOVERNANCE.md](./GOVERNANCE.md#technical-steering-committee-tsc).
+
+##### Decision-making
+
+Routine decisions operate by lazy consensus. Substantive decisions — spec-breaking changes, new releases, governance amendments, new TSC members — require a 2/3 majority of cast votes.
+
+### Technical roles
+
+Technical roles are structured in a cascade of increasing levels of rights and obligations, as defined further below.
+
+#### Contributor
+
+A **Contributor** is any individual who engages with the project by submitting issues, proposals, or pull requests. There is no formal process — see [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
+
+##### Rights
 
 - Submit issues and pull requests on any DocLang repository
 - Participate in design discussions
-- Eligible to be nominated as a Member
+- Eligible to be nominated as a Committer
 
-### Obligations
+##### Obligations
 
 - DCO sign-off on all contributions (see [CONTRIBUTING.md](./CONTRIBUTING.md))
 - Comply with the [Code of Conduct](./CODE_OF_CONDUCT.md)
 
----
+#### Committer
 
-## 4. Adopter
+A **Committer** is a Contributor who has been formally recognized by the TSC as a sustained, regular participant.
 
-Adopters are organizations that have implemented the DocLang standard in a product or internal system.
+##### Rights
 
-### Who
+In addition to those of a Contributor:
+- Write access to DocLang repositories
+- Participate in and lead working groups
+- Eligible for TSC nomination
 
-Technology companies, enterprises, or other organizations running DocLang in production.
+##### Obligations
 
-### Rights
+In addition to those of a Contributor:
+- Sustained, regular engagement with the project
+- Comply with the [IP Policy](./IP-POLICY.md) and [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-- Logo and listing on the project website and README
-- Early access to draft spec versions before public release
-- Formal roadmap input channel — submissions are acknowledged by the SC
-- Featured in adopter showcases in releases, blog posts, and events
-- Conformance recognition *(planned — pending availability of the conformance test suite)*
+##### Process
 
-### Obligations
+A Committer candidate is nominated by any TSC member. The TSC acknowledges the nomination via lazy consensus (any TSC member may raise an objection within 7 days; silence is assent) — no formal vote required.
 
-- Self-identify as an implementer of the standard
-- Comply with the [Code of Conduct](./CODE_OF_CONDUCT.md)
+Current committers are listed in [GOVERNANCE.md](./GOVERNANCE.md#committers).
 
-### Process for becoming an Adopter
+#### Maintainer
 
-Open a GitHub issue using the [Adopter Registration template](https://github.com/doclang-project/community/issues/new?template=adopter-registration.md). An SC member will acknowledge and coordinate your listing.
+A **Maintainer** is a Committer responsible for a specific DocLang repository.
 
----
+##### Default roster
 
-## 5. Resignation and removal
+The [default maintainer roster](./GOVERNANCE.md#maintainers) applies to any DocLang repository — unless overridden by a per-repository override.
 
-Any participant may step down at any time by notifying the SC. Participants may be removed by a 2/3 vote of the SC for material breach of the [Code of Conduct](./CODE_OF_CONDUCT.md) or [IP Policy](./IP-POLICY.md).
+##### Per-repository overrides
 
-Founding member seats are permanent; however, a founding member may resign its seat by written notice to the SC. A vacant founding member seat may be filled by a 2/3 SC vote.
+A repository may publish a `MAINTAINERS.md` file to override the default roster.
 
-## 6. Amendments
+##### Rights
 
-This document may be amended by a 2/3 vote of the SC, in coordination with LF AI & Data where applicable.
+In addition to those of a Committer:
+- Review and merge pull requests for the repositories they maintain.
+
+##### Process
+
+Maintainers are appointed by the TSC, in consultation with existing maintainers. Changes to the default roster require TSC acknowledgement via lazy consensus; per-repository overrides are recorded in that repository's `MAINTAINERS.md`.
+
+## Resignation and removal
+
+Any participant may step down at any time by notifying the TSC. Participants may be removed by a 2/3 vote of the TSC for material breach of the [Code of Conduct](./CODE_OF_CONDUCT.md) or [IP Policy](./IP-POLICY.md).
+
+Founding member seats are permanent; however, a founding member may resign its seat by written notice to the TSC. A vacant founding member seat may be filled by a 2/3 TSC vote.
+
+## Amendments
+
+This document may be amended by a 2/3 vote of the TSC, in coordination with LF AI & Data where applicable.

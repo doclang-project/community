@@ -6,6 +6,8 @@ labels: adopter
 assignees: ''
 ---
 
+Register your organization as a DocLang Adopter. See [MEMBERSHIP.md](../../MEMBERSHIP.md#adopter-level) for rights and obligations.
+
 ## Organization
 
 **Name:**
@@ -25,9 +27,9 @@ assignees: ''
 
 **May we feature your logo on the project website and README?** (yes / no / please ask first)
 
-**May we feature you in the adopter showcase (releases, blog posts, events)?** (yes / no / please ask first)
+**May we feature you in relevant showcases (releases, blog posts, events)?** (yes / no / please ask first)
 
 ## Acknowledgment
 
-- [ ] I confirm this organization has implemented the DocLang standard
+- [ ] I confirm this organization uses the DocLang standard in a product or internal system
 - [ ] I have read and agree to the [Code of Conduct](../../CODE_OF_CONDUCT.md)

@@ -1,10 +1,10 @@
 # Maintainers
 
-This file lists the Steering Committee members actively maintaining the DocLang **community** repository. SC members have merge rights on this repository's `main` branch. See [GOVERNANCE.md](./GOVERNANCE.md) for the full SC member list and the process for joining.
-
-Each DocLang repository keeps its own `MAINTAINERS.md`.
+This file lists **maintainers** for the present repository. See [MEMBERSHIP.md](./MEMBERSHIP.md#maintainer) for the Maintainer role.
 
 ## Current maintainers
+
+Alphabetical by last name:
 
 | Name | Affiliation |
 |------|-------------|
@@ -14,10 +14,6 @@ Each DocLang repository keeps its own `MAINTAINERS.md`.
 | Panos Vagenas | IBM |
 | Maxime Vermeir | ABBYY |
 
-## Emeritus maintainers
-
-_None yet._
-
 ## Contact
 
-For maintainer-level questions, please open a discussion on the [primary DocLang repository](https://github.com/doclang-project/doclang-standard/discussions) or contact the SC chairperson listed in [GOVERNANCE.md](./GOVERNANCE.md#steering-committee-member).
+For maintainer-level questions, please open a discussion on the [primary DocLang repository](https://github.com/doclang-project/doclang/discussions) or contact the [TSC Chair](./GOVERNANCE.md#technical-steering-committee-tsc).
