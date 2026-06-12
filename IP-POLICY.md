@@ -47,13 +47,13 @@ The patent license granted to any party terminates as to that party if they init
 "DocLang" is intended to be a project trademark. Use of the name and any associated logos is governed by a trademark policy maintained by the hosting foundation. Until the hosting foundation is confirmed, use of the name should be limited to:
 
 - Accurate, non-misleading references to the specification (e.g. "supports DocLang", "implements DocLang").
-- Project communications by member companies acting in their member capacity.
+- Project communications by member organizations acting in their member capacity.
 
 <!-- TODO: replace this section with the hosting foundation's standard trademark terms once hosting is confirmed. -->
 
 ## 5. Disclosure obligations
 
-Members are expected to disclose, in good faith, patents they believe to be Essential to the specification, in line with the disclosure requirements of typical standards-setting bodies (e.g. ISO, W3C). Disclosures should be sent to the TSC via the contact in [GOVERNANCE.md](./GOVERNANCE.md).
+Member organizations are expected to disclose, in good faith, patents they believe to be Essential to the specification, in line with the disclosure requirements of typical standards-setting bodies (e.g. ISO, W3C). Disclosures should be sent to the TSC via the contact in [GOVERNANCE.md](./GOVERNANCE.md).
 
 ## 6. Amendments
 

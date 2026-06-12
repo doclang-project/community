@@ -23,24 +23,24 @@ Out of scope:
 
 ## 3. Founding members
 
-The founding members of the DocLang consortium are:
+The founding members of the DocLang consortium are (in alphabetical order):
 
 - ABBYY
+- Forgis
+- HumanSignal
 - IBM
-- Red Hat
 - NVIDIA
-
-Member roles, rights, and obligations are described in [MEMBERSHIP.md](./MEMBERSHIP.md).
+- Red Hat
 
 ## 4. Governance
 
-Day-to-day governance, project roles (contributor, committer, maintainer, TSC), and decision-making procedures are described in [GOVERNANCE.md](./GOVERNANCE.md).
+Participation levels and individual roles are described in [MEMBERSHIP.md](./MEMBERSHIP.md). Day-to-day governance and current role holders are described in [GOVERNANCE.md](./GOVERNANCE.md).
 
 The Technical Steering Committee (TSC) has final authority on technical direction. The TSC includes representation from each founding member to preserve vendor neutrality.
 
 ## 5. Decision-making
 
-The project operates by **lazy consensus** for routine decisions. Substantive decisions — including specification-breaking changes, new releases of the standard, governance changes, and acceptance of new founding members — require a TSC vote. A two-thirds majority of cast votes is sufficient unless the [GOVERNANCE.md](./GOVERNANCE.md) specifies otherwise.
+The project operates by **lazy consensus** for routine decisions. Substantive decisions — including specification-breaking changes, new releases of the standard, governance changes, and admission of new Member organizations — require a TSC vote. A two-thirds majority of cast votes is sufficient unless [MEMBERSHIP.md](./MEMBERSHIP.md) specifies otherwise.
 
 Working groups may be chartered by the TSC to develop specific areas of the specification and report back with recommendations.
 
@@ -52,11 +52,11 @@ Working groups may be chartered by the TSC to develop specific areas of the spec
 
 ## 7. Antitrust and code of conduct
 
-All project activities are conducted under the [Code of Conduct](./CODE_OF_CONDUCT.md). Member companies and individual participants are expected to comply with applicable antitrust and competition law; the project does not coordinate on pricing, market allocation, or other competitively sensitive matters.
+All project activities are conducted under the [Code of Conduct](./CODE_OF_CONDUCT.md). Member organizations and individual participants are expected to comply with applicable antitrust and competition law; the project does not coordinate on pricing, market allocation, or other competitively sensitive matters.
 
 ## 8. Hosting
 
-<!-- TODO: confirm hosting foundation. Original Docling community was an LF AI & Data incubation project; verify whether DocLang continues there or moves to a different foundation. -->
+DocLang is hosted under LF AI & Data, a Linux Foundation project. The project's governance and IP policy operate in accordance with LF AI & Data's requirements and conventions.
 
 ## 9. Amendments
 

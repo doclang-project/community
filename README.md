@@ -12,41 +12,38 @@ DocLang explicitly preserves both **semantic meaning** (headings, paragraphs, ta
 
 The standard is being developed as an open consortium effort with the intent of ISO standardization.
 
-## Founding members
+## Participation levels
 
-DocLang is a multi-vendor effort. The founding members are:
+DocLang is a multi-vendor consortium effort. See [MEMBERSHIP.md](./MEMBERSHIP.md) for [participation levels for organizations](./MEMBERSHIP.md#participation-levels-for-organizations) and [roles for individuals](./MEMBERSHIP.md#roles-for-individuals). Founding members are listed in the [Charter](./CHARTER.md#3-founding-members). Current [committers](./GOVERNANCE.md#committers) and the [Technical Steering Committee](./GOVERNANCE.md#technical-steering-committee-tsc) are in [GOVERNANCE.md](./GOVERNANCE.md).
 
-- **ABBYY**
-- **IBM**
-- **Red Hat**
-- **NVIDIA**
+*Register your organization as an [Adopter](./MEMBERSHIP.md#adopter-level) or [Contributor](./MEMBERSHIP.md#contributor-level).*
 
-The list of named contributors to the specification is maintained in the [DocLang standard repository](https://github.com/doclang-project/doclang-standard) and reflected in [MAINTAINERS.md](./MAINTAINERS.md).
+**Adopters:** *(none registered yet)*
 
 ## History
 
-The initial draft of the DocLang specification originated from research by the AI for Knowledge team at IBM Research Europe – Zurich, building on prior work in the Docling open-source project. It has since been opened up as a vendor-neutral standard developed by the founding members listed above.
+The initial draft of the DocLang specification originated from research by the AI for Knowledge team at IBM Research Europe – Zurich, building on prior work in the Docling open-source project. It has since been opened up as a vendor-neutral standard developed by the [founding members](./CHARTER.md#3-founding-members).
 
 ## Governance
 
-The governance of the project is described in the [GOVERNANCE.md](./GOVERNANCE.md) file. The project [Charter](./CHARTER.md) and [Membership tiers](./MEMBERSHIP.md) describe the high-level structure, and the [IP Policy](./IP-POLICY.md) covers patent and contribution licensing — relevant for any ISO-track standard.
+The [Charter](./CHARTER.md), [governance](./GOVERNANCE.md), and [IP Policy](./IP-POLICY.md) cover project scope, day-to-day operations, and patent and contribution licensing — relevant for any ISO-track standard.
 
 The Technical Steering Committee (TSC) meets regularly. Meeting notes are kept in [steering-committee/meeting-notes/](./steering-committee/meeting-notes/).
 
 ## Roadmap
 
-The TSC maintains the overall DocLang roadmap in [docs/roadmap.md](./docs/roadmap.md).
+The TSC maintains the overall DocLang roadmap. A public roadmap document will be published in this repository; until then, see [steering-committee meeting notes](./steering-committee/meeting-notes/).
 
 ## How can I help?
 
-DocLang is driven by the participation of its members and the wider community. Ways to get involved:
+DocLang is driven by participating organizations, contributors, and the wider community. Ways to get involved:
 
-- **Specification work** — propose changes, raise issues, and review pull requests on the [primary DocLang repository](https://github.com/doclang-project/doclang-standard).
+- **Specification work** — propose changes, raise issues, and review pull requests on the [primary DocLang repository](https://github.com/doclang-project/doclang).
 - **Reference implementations** — build or contribute to parsers, validators, and converters.
 - **Documentation, examples, tutorials** — there is always room for clearer onboarding material.
 - **Adoption stories** — talks, blog posts, and case studies help the standard mature.
 
-If you are looking for a first issue, search the [primary DocLang repository](https://github.com/doclang-project/doclang-standard/issues) for the `help wanted` label.
+If you are looking for a first issue, search the [primary DocLang repository](https://github.com/doclang-project/doclang/issues) for the `help wanted` label.
 
 ## Reporting security issues
 
@@ -54,4 +51,4 @@ Please follow the process described in [SECURITY.md](./SECURITY.md). Do not repo
 
 ## Questions and discussion
 
-For general questions and design discussion, please use the [discussions section](https://github.com/doclang-project/doclang-standard/discussions) of the primary DocLang repository.
+For general questions and design discussion, please use the [discussions section](https://github.com/doclang-project/doclang/discussions) of the primary DocLang repository.
